@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>technical-documentation-page</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Open Sans', Arial, sans-serif;
+        color: #4d4e53;
+        line-height: 1.5;
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 100%;
+        border-right: solid 2px #bbb;
+        background-color: white;
+        overflow-y: auto;
+    }
+
+    #navbar header {
+        font-size: 28px;
+        font-weight: normal;
+        padding: 20px;
+        border-bottom: 1px solid #bbb;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 12px 30px;
+        text-decoration: none;
+        color: #4d4e53;
+        border-bottom: 1px solid #bbb;
+        transition: background-color 0.2s;
+    }
+
+    .nav-link:hover {
+        background-color: #f5f5f5;
+    }
+
+    #main-doc {
+        position: absolute;
+        margin-left: 320px;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+
+    .main-section {
+        margin-bottom: 50px;
+    }
+
+    .main-section header {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    .main-section p {
+        margin: 15px 0;
+        font-size: 16px;
+    }
+
+    .main-section li {
+        margin: 15px 0 15px 30px;
+    }
+    code {
+        display: block;
+        background-color: #f4f4f4;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 5px;
+        line-height: 1.8;
+        white-space: pre-wrap;
+        font-family: monospace;
+    }
+
+
+    @media (max-width: 768px) {
+        #navbar {
+            width: 100%;
+            height: auto;
+            position: relative;
+            border-right: none;
+            border-bottom: 2px solid #bbb;
+        }
+
+        #main-doc {
+            position: relative;
+            margin-left: 0;
+            padding: 20px;
+        }
+    }
+</style>
 </head>
 <body>
-< id="main">
+   <nav id="navbar">
+        <header>JS Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        
+        <main id="main-document">
     <section class="main-section" id="Introduction">
         <header>Introduction</header>
         <p>
@@ -177,5 +279,6 @@ Primitive parameters (such as a number) are passed to functions by value; the va
                 <header>Reference</header>
                 <p>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></p>
             </section>
+            </main>
         </body>
 </html>
