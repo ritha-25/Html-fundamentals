@@ -328,20 +328,28 @@ With each iteration, the loop increments n and adds that value to x. Therefore, 
 </ul>
 
 After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.
+</section>
 
-Function declarations
-A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
-The name of the function.
-A list of arguments to the function, enclosed in parentheses and separated by commas.
-The JavaScript statements that define the function, enclosed in curly brackets, { }.
-For example, the following code defines a simple function named square:
+        <section class="main-section" id="Function_declarations">
+            <header>Function declarations</header>
+            <p>
+            A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+            <ul>
+                <li>The name of the function.</li>
+                <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+                <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li>
+            </ul> 
 
-function square(number) { return number * number; }
-The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
+            For example, the following code defines a simple function named square:
+            <br>
+            <code>function square(number) { return number * number; }</code><br>
+            The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. 
+            The return statement specifies the value returned by the function.
 
-return number * number;
+<code>return number * number;</code><br>
 Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
             </p></section>
+
             <section class="main-section" id="Reference">
                 <header>Reference</header>
                 <p>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></p>
