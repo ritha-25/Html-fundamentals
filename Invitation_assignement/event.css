@@ -29,6 +29,22 @@ h1{
 }
 .invite-text{
     color:#f5e4b0;
-    fon-style: italic;
+    font-style: italic;
     font-size:1rem;
+}
+.description{
+    color:#f5e4b0;
+    font-size:1rem;
+    margin:1.5rem 0;
+    line-height: 1.8;
+}
+.venue{
+    color:#e8c97a;
+letter-spacing: 0.2em;
+font-size: 1.1rem;
+}
+.address{
+    color:#f5e4b0;
+    opacity:0.7;
+    font-size: 0.9rem;
 }
