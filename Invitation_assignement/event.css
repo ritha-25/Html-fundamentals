@@ -74,3 +74,14 @@ font-size: 1.1rem;
     font-size: 0.9rem;
     opacity:0.8;
 }
+
+.rsvp{
+    display:inline-block;
+    background-color: #c9a84c;
+    color: #0a0f2e;
+    padding: 0.9rem 1.5rem;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.2rem;
+    margin-top: 1.5rem;
+}
