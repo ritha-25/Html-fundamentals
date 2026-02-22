@@ -22,3 +22,13 @@
     width:100%;
     text-align: center;
 }
+h1{
+    font-size: 3rem;
+    color:#e8c97a;
+    margin:1rem 0;
+}
+.invite-text{
+    color:#f5e4b0;
+    fon-style: italic;
+    font-size:1rem;
+}
