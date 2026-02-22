@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
       font-family: Georgia,serif;
      display: flex;
      min-height:100vh;
@@ -12,7 +12,8 @@
      justify-content: center;
      align-items: center;
      padding:2px
-
+    
+     
 }
 .card{
     background-color: #0d1540;
@@ -84,4 +85,7 @@ font-size: 1.1rem;
     font-size: 0.85rem;
     letter-spacing: 0.2rem;
     margin-top: 1.5rem;
+}
+.rsvp-hover{
+    background-color: #e8c97a;
 }
