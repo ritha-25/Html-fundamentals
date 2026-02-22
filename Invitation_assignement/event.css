@@ -5,8 +5,20 @@
 }
 
 .body{
-      
-}
-.main{
+      font-family: Georgia,serif;
+     display: flex;
+     min-height:100vh;
+     background-color: #0a0f2e;
+     justify-content: center;
+     align-items: center;
+     padding:2px
 
+}
+.card{
+    background-color: #0d1540;
+    border: 1px solid #c9a84c;
+    padding:3rem 2rem;
+    max-width:550px;
+    width:100%;
+    text-align: center;
 }
