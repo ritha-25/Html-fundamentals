@@ -1,0 +1,121 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: Georgia,serif;
+     display: flex;
+     min-height:100vh;
+     background-color: #0a0f2e;
+     justify-content: center;
+     align-items: center;
+     padding:2px
+    
+     
+}
+.card{
+    background-color: #0d1540;
+    border: 1px solid #c9a84c;
+    padding:3rem 2rem;
+    max-width:550px;
+    width:100%;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    color:#e8c97a;
+    margin:1rem 0;
+}
+.invite-text{
+    color:#f5e4b0;
+    font-style: italic;
+    font-size:1rem;
+}
+.description{
+    color:#f5e4b0;
+    font-size:1rem;
+    margin:1.5rem 0;
+    line-height: 1.8;
+}
+.venue{
+    color:#e8c97a;
+letter-spacing: 0.2em;
+font-size: 1.1rem;
+}
+.address{
+    color:#f5e4b0;
+    opacity:0.7;
+    font-size: 0.9rem;
+}
+.details{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    border:1px solid #c9a84c;
+    padding:1.5rem;
+    margin:1.5rem 0;
+}
+.date{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:0.3rem;
+    color:#e8c97a;
+}
+.time{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:0.3rem;
+    color:#e8c97a;
+}
+.full-date{
+    font-size: 0.9rem;
+    opacity:0.8;
+}
+.logo{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom:1rem;
+}
+.logo-icon {
+    width:40px;
+    height:40px;
+    border:2px solid #c9a84c;
+    transform:rotate(45deg);
+    margin-bottom:0.5em;
+}
+.logo p{
+    color:#c9a84c;
+    font-size:0.8rem;
+    letter-spacing: 0.3rem;
+}
+
+.rsvp-button{
+    display:inline-block;
+    background-color: #c9a84c;
+    color: #0a0f2e;
+    padding: 0.9rem 1.5rem;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.2rem;
+    margin-top: 1.5rem;
+}
+.rsvp-button:hover{
+    background-color: #e8c97a;
+}
+@media(max-width:480px){
+    .details{
+        grid-template-columns: 1fr;
+
+    }
+
+h1{
+    font-size:2rem;
+}
+.card {
+    padding:2rem 1rem;
+}}
