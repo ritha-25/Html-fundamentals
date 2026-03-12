@@ -10,33 +10,27 @@
 // console.log("you failed computer")
 // console.log("Are major courses passed :"+ (physics && mathematics >70))
 
-//Bus fare eligibikity
-let ticketPrice=500
-let userBalance=1000
-let userAge = 15
-let ticketPayment=userBalance-ticketPrice;
-console.log("the payment made is "+ticketPayment)
-console.log("Boarding allowed " + (userAge>12 && userBalance>=500 && ticketPayment >= ticketPrice) );
-// Challenge 1: Bus Fare Eligibility
-// let ticketPrice = 500;
-// let userBalance = 600;
-// let userAge = 15;
-
-// let canPay = userBalance >= ticketPrice && userAge > 12;
-// console.log("User can board: " + canPay);
+//Bus fare eligibility
+// let ticketPrice=500
+// let userBalance=1000
+// let userAge = 15
+// let ticketPayment=userBalance-ticketPrice;
+// console.log("the payment made is "+ticketPayment)
+// console.log("Boarding allowed " + (userAge>12 && userBalance>=500 && ticketPayment >= ticketPrice) );
 
 // //online store discount
-// let maize=25
-// let banana=25
-// let orange=25
-// let isMember=true
-// let totalPrice=maize+banana+orange;
-// let discountapplies=totalPrice>100 && isMember
-// console.log("The total price"+totalPrice+"$")
-// console.log("Discount applies ?"+discountapplies)
-// let discount=totalPrice*0.10
-// let finalprice=totalPrice-discount
-// console.log("the final price is "+finalprice)
+let itemPrice=25;
+let totalItems=7;
+let isMember=true;
+let totalPrice=itemPrice*totalItems
+let discountapplies=totalPrice>100 && isMember;
+console.log("The total price"+totalPrice+"$")
+console.log("Discount applies ?"+discountapplies)
+let discount=totalPrice*0.10
+let finalprice=totalPrice-discount
+console.log("the final price is "+finalprice+"$")
+
+
 // // Student pass /fail system
 // let passingScore=50
 // let distinction=85
