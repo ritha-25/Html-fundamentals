@@ -19,24 +19,26 @@
 // console.log("Boarding allowed " + (userAge>12 && userBalance>=500 && ticketPayment >= ticketPrice) );
 
 // //online store discount
-let itemPrice=25;
-let totalItems=7;
-let isMember=true;
-let totalPrice=itemPrice*totalItems
-let discountapplies=totalPrice>100 && isMember;
-console.log("The total price"+totalPrice+"$")
-console.log("Discount applies ?"+discountapplies)
-let discount=totalPrice*0.10
-let finalprice=totalPrice-discount
-console.log("the final price is "+finalprice+"$")
+// let itemPrice=25;
+// let totalItems=7;
+// let isMember=true;
+// let totalPrice=itemPrice*totalItems
+// let discountapplies=totalPrice>100 && isMember;
+// console.log("The total price"+totalPrice+"$")
+// console.log("Discount applies ?"+discountapplies)
+// let discount=totalPrice*0.10
+// let finalprice=totalPrice-discount
+// console.log("the final price is "+finalprice+"$")
 
 
 // // Student pass /fail system
-// let passingScore=50
-// let distinction=85
-// let attendance=74
-// console.log("will student pass"+passingScore>=50 && attendance>=75)
-// console.log("Is student in disticntion"+distinction>=85)
+let passingScore=50
+let distinction=85
+let attendance=78
+let  score=80
+console.log("will student pass:"+(score >= passingScore && attendance >= 75))
+console.log("Is student in disticntion:"+(score>=distinction))
+
 // //Phone Battery
 // let batteryPercentage=50
 // let batteryUsage=batteryPercentage--
