@@ -11,27 +11,27 @@
 // console.log("Are major courses passed :"+ (physics && mathematics >70))
 
 //Bus fare eligibility
-// let ticketPrice=500
-// let userBalance=1000
-// let userAge = 15
-// let ticketPayment=userBalance-ticketPrice;
-// console.log("the payment made is "+ticketPayment)
-// console.log("Boarding allowed " + (userAge>12 && userBalance>=500 && ticketPayment >= ticketPrice) );
+ let ticketPrice=500
+ let userBalance=1000
+let userAge = 15
+let ticketPayment=userBalance-ticketPrice;
+console.log("the payment made is "+ticketPayment)
+console.log("Boarding allowed " + (userAge>12 && userBalance>=500 && ticketPayment >= ticketPrice) );
 
 // //online store discount
-// let itemPrice=25;
-// let totalItems=7;
-// let isMember=true;
-// let totalPrice=itemPrice*totalItems
-// let discountapplies=totalPrice>100 && isMember;
-// console.log("The total price"+totalPrice+"$")
-// console.log("Discount applies ?"+discountapplies)
-// let discount=totalPrice*0.10
-// let finalprice=totalPrice-discount
-// console.log("the final price is "+finalprice+"$")
+let itemPrice=25;
+let totalItems=7;
+let isMember=true;
+let totalPrice=itemPrice*totalItems
+let discountapplies=totalPrice>100 && isMember;
+console.log("The total price"+totalPrice+"$")
+console.log("Discount applies ?"+discountapplies)
+let discount=totalPrice*0.10
+let finalprice=totalPrice-discount
+console.log("the final price is "+finalprice+"$")
 
 
-// // Student pass /fail system
+// Student pass /fail system
 let passingScore=50
 let distinction=85
 let attendance=78
@@ -39,58 +39,79 @@ let  score=80
 console.log("will student pass:"+(score >= passingScore && attendance >= 75))
 console.log("Is student in disticntion:"+(score>=distinction))
 
-// //Phone Battery
-// let batteryPercentage=50
-// let batteryUsage=batteryPercentage--
-// let isChargeConnected=true
-// console.log("This battery is in use"+batteryUsage)
-// let warning=batteryPercentage<20 || !isChargeConnected
-// console.log("Warning please charge ypur phone"+ warning)
+//Phone Battery
+let batteryPercentage=50
+batteryPercentage--
+batteryPercentage--  
+batteryPercentage--  
+batteryPercentage--  
+let isChargeConnected=false
+console.log("Remaing  battery is :"+""+batteryPercentage+"%")
+let warning=batteryPercentage < 20|| !isChargeConnected
+console.log("Warning Be shown ? " + warning)
+//second battry finding usge
+// let batteryPercent = 70
+// let usageAmount = 25 
+// let isChargerConnected = false
+
+// let newBattery = batteryPercent - usageAmount  
+// let warning1 = newBattery < 20 || !isChargerConnected
+
+// console.log("New battery: " + newBattery + "%")
+// console.log(" warning: " + warning1)
+
 // //cinema Ticket Pricing
-// let adultTicket=10
-// let chileTicket=5
-// let totalTickets=adultTicket+chileTicket
-// let isWeekend=true
-// let discounts=(totalTickets>5 && isWeekend + totalTickets*0.15)
-// console.log("the totla ticket price"+totalTickets+"rfw")
-// console.log("when discount applied"+discounts)
-// //Gym Access system
-// let hasMembership=true
-// let age=17
-// let gymCapacity=40
-// let maximumCapacity=50
-// console.log("Can user enter"+hasMembership && age>=16 && gymCapacity<maximumCapacity)
-// //INternet data usage
-// let monthlyLimit=50
-// let usage=20
-// let isPremium=true
-// let speed=0.5*100
-// let speedreduced=speed--
-// let remainingData=monthlyLimit-usage
-// console.log("remainig data"+remainingData+"GB")
-// console.log("speed reduction"+speedreduced)
-// //Game Level UNlock system
+let adultTicket=10
+let chileTicket=5
+let childTicket=5
+let totalTickets=adultTicket+chileTicket+ childTicket
+let isWeekend=true
+let discounts=(totalTickets>5 && isWeekend + totalTickets*0.15)
+let finalCost=totalTickets-discounts
+console.log("the total ticket price"+""+totalTickets + "rfw")
+console.log("when discount applied:"+""+discounts)
+console.log("final cost discount applied:"+""+finalCost+"frw")
+
+//Gym Access system
+let hasMembership=true
+let age=17
+let gymCapacity=40
+let maximumCapacity=50
+console.log("Can user enter"+(hasMembership && age>=16 && gymCapacity<maximumCapacity))
+ //INternet data usage
+let monthlyLimit=50
+let usage=20
+let isPremium=true
+
+let remainingData=monthlyLimit-usage
+let speedReduced= usage > monthlyLimit && !isPremium  
+
+console.log("remaining data "+remainingData+"GB")
+console.log("speed reduction "+speedReduced)
+// Game Level UNlock system
 // let score=2000
-// let lives=3
+// let lives=1
 // let coinsCollected=30
-// console.log("you are qualified ?"+score>=1000 && lives>0&&coinsCollected>=50)
-// //Food Delivry fee calculatro
-// let baseDelivryFee=2000
-// let burger=2500
-// let pizza=3000
-// let orderAmount=2000
-// let deliveryPremium=true
-// let totalOrderPrice=burger+pizza
-// freeDelivery=totalOrderPrice>1500 || deliveryPremium
-// console.log("the total order amount"+totalOrderPrice)
-// console.log("You have free delivery"+ freeDelivery)
-// //Event entry system
-// let eventTicket=30
-// let hasIdVerfication=true
-// let eventAge=21
-// let hasTicket=true
-// let pass=hasTicket&&eventTicket===30
-// console.log("User can enter"+pass && hasIdVerfication)
+// console.log("you are qualified ?"+(score>=1000 && lives> 0 && coinsCollected>=50))
+ //Food Delivry fee calculatro
+let baseDelivryFee=2000
+let burger=2500
+let pizza=3000
+let orderAmount=2000
+let deliveryPremium=true
+let totalOrderPrice=burger+pizza
+freeDelivery=totalOrderPrice>1500 || deliveryPremium
+console.log("the total order amount"+totalOrderPrice)
+console.log("You have free delivery"+ freeDelivery)
+
+//Event entry system
+let eventTicket=30
+let hasIdVerfication=true
+let eventAge=12
+let hasTicket=true
+let pass=hasTicket&&eventTicket===30
+console.log("User can enter"+pass && hasIdVerfication&&eventAge>=18)
+
 
 
 
