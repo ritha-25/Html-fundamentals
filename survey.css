@@ -107,7 +107,15 @@ input[type="checkbox"] + label {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 600;
-   
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+
+
 }
 
 #submit:hover {
@@ -136,8 +144,6 @@ fieldset {
     padding: 0;
     margin: 0;
 }
-
-
 br {
     display: none;
 }
