@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+
+
+}
+body{
+    background-color: rgb(236, 244, 241);
+
+}
+#sub1{
+    text-decoration: dotted;
+}
+img{
+    /* width: 200px; */
+    width: 60%;
+    border-radius: 20;
+
+}

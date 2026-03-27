@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+b {
+    font-size: 24px;
+    display: block;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+#task_title {
+    color: green;
+}
+
+#form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="date"] {
+    padding: 5px;
+    width: 200px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    margin: 10px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#taskListContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#taskList {
+    margin-top: 15px;
+}
+
+#taskList div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background: #fafafa;
+}
+
+#taskList button {
+    background-color: blue;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#taskList button:last-child {
+    background-color: red;
+}
+
+#taskList button:hover {
+    opacity: 0.8;
+}
+
+#taskList button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+/* @media-screen{
+
+} */

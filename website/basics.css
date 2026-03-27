@@ -1,0 +1,48 @@
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 20px;
+}
+body {
+  background-color: lightblue;
+ 
+  }
+
+ .division{
+  border: gray solid 1px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+.first-children {
+    
+    padding: 10px;
+    border: gray solid 2px;
+    background-color: white;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+
+  }
+  
+#first-children-heading {
+    text-align: center;
+    color: blue;
+    }
+    #paragraph{
+   color: blueviolet;
+    }
+.second-children {
+    background-color: white
+
+  } 
+
+#second-children-heading {
+    text-align: center;
+    color: brown;
+    }
+
+  
+  #paragraph-2{
+    color: black;
+  }
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <b>Welcome to Smart Task Manager</b>
+    <div class="heading">
+         <h3 id="task_title">Prioritize With Smart Task</h3>
+    </div>
+   <div id="form">
+    <form id="task">
+        <label>TaskName</label>
+        <input type="text" id="taskNameInput"/>
+        <br>
+         <label>TaskDate</label>
+        <input type="date" id="taskDateInput"/>
+        <br>
+         <label>TaskStatus</label>
+         <br>
+          <label>Inprogress</label>
+        <input type="radio" name="status" value="inprogress"/>
+         <label>completed</label>
+        <input type="radio" name="status" value="completed"/>
+        <br>
+        <button type="button" id="addbutton">Add</button>
+        <button type="button" id="displaybutton">Display Task List</button>
+        <button type="button" id="deletebutton">Delete</button>
+        <button type="button" id="totalbutton">Display Total Task</button>
+    </form>
+   </div>
+    <div id="taskListContainer">
+       <h3>My Tasks:</h3>
+       <div id="taskList"></div>
+   </div>
+    
+    <script src="task.js"></script>
+</body>
+</html>
